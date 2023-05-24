@@ -1,0 +1,370 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master]> "which" "cmake"
+/usr/local/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master]> "cmake" "--version"
+cmake version 3.17.0
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/_builds/default`
+  `-DCMAKE_TOOLCHAIN_FILE=/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/tools/polly/default.cmake`
+]
+[/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master]> "cmake" "-H." "-B/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/_builds/default" "-DCMAKE_TOOLCHAIN_FILE=/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/tools/polly/default.cmake"
+-- [hunter] Initializing Hunter workspace (5659b15dc0884d4b03dbd95710e6a1fa0fc3258d)
+-- [hunter]   https://github.com/cpp-pm/hunter/archive/v0.23.251.tar.gz
+-- [hunter]   -> /Users/melikyan/.hunter/_Base/Download/Hunter/0.23.251/5659b15
+-- [polly] Used toolchain: Default
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/melikyan/.hunter
+-- [hunter] [ Hunter-ID: 5659b15 | Toolchain-ID: a47179b | Config-ID: 65a58ee ]
+-- [hunter] GTEST_ROOT: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Install (ver.: 1.10.0)
+-- [hunter] Building GTest
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/cache.cmake
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/args.cmake
+-- [polly] Used toolchain: Default
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Build
+Scanning dependencies of target GTest-Release
+[  6%] Creating directories for 'GTest-Release'
+[ 12%] Performing download step (download, verify and extract) for 'GTest-Release'
+-- Downloading...
+   dst='/Users/melikyan/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+   timeout='none'
+-- Using src='https://github.com/google/googletest/archive/release-1.10.0.tar.gz'
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/melikyan/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/Users/melikyan/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+     dst='/Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No patch step for 'GTest-Release'
+[ 25%] No update step for 'GTest-Release'
+[ 31%] Performing configure step for 'GTest-Release'
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/cache.cmake
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/args.cmake
+-- [polly] Used toolchain: Default
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /anaconda3/bin/python (found version "3.6.8")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Build/GTest-Release-prefix/src/GTest-Release-build
+[ 37%] Performing build step for 'GTest-Release'
+Scanning dependencies of target gtest
+[ 12%] Building CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 25%] Linking CXX static library ../lib/libgtest.a
+[ 25%] Built target gtest
+Scanning dependencies of target gtest_main
+Scanning dependencies of target gmock
+[ 37%] Building CXX object googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 50%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 62%] Linking CXX static library ../lib/libgtest_main.a
+[ 62%] Built target gtest_main
+[ 75%] Linking CXX static library ../lib/libgmock.a
+[ 75%] Built target gmock
+Scanning dependencies of target gmock_main
+[ 87%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[100%] Linking CXX static library ../lib/libgmock_main.a
+[100%] Built target gmock_main
+[ 43%] Performing install step for 'GTest-Release'
+[ 25%] Built target gtest
+[ 50%] Built target gmock
+[ 75%] Built target gmock_main
+[100%] Built target gtest_main
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-actions.h.pump
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-function-mockers.h.pump
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-matchers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-more-actions.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-matchers.h.pump
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-actions.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-matchers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/gmock-port.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/gmock-pp.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h.pump
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/README.md
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-function-mocker.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-more-matchers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-function-mockers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-cardinalities.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-spec-builders.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-nice-strict.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-actions.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgmock.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgmock_main.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gmock.pc
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gmock_main.pc
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestTargets-release.cmake
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-matchers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-death-test.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-spi.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-string.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-type-util.h.pump
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-port.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-internal.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/README.md
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/gtest.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-message.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-param-test.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-typed-test.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest_pred_impl.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest_prod.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-test-part.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-printers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgtest.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgtest_main.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gtest.pc
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gtest_main.pc
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/args.cmake
+[ 50%] Completed 'GTest-Release'
+[ 50%] Built target GTest-Release
+Scanning dependencies of target GTest-Debug
+[ 56%] Creating directories for 'GTest-Debug'
+[ 62%] Performing download step (download, verify and extract) for 'GTest-Debug'
+-- verifying file...
+       file='/Users/melikyan/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/Users/melikyan/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+  SHA1='9c89be7df9c5e8cb0bc20b3c4b39bf7e82686770'
+-- extracting...
+     src='/Users/melikyan/.hunter/_Base/Download/GTest/1.10.0/9c89be7/release-1.10.0.tar.gz'
+     dst='/Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] No patch step for 'GTest-Debug'
+[ 75%] No update step for 'GTest-Debug'
+[ 81%] Performing configure step for 'GTest-Debug'
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/cache.cmake
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/args.cmake
+-- [polly] Used toolchain: Default
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /anaconda3/bin/python (found version "3.6.8")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Build/GTest-Debug-prefix/src/GTest-Debug-build
+[ 87%] Performing build step for 'GTest-Debug'
+Scanning dependencies of target gtest
+[ 12%] Building CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 25%] Linking CXX static library ../lib/libgtestd.a
+[ 25%] Built target gtest
+Scanning dependencies of target gtest_main
+Scanning dependencies of target gmock
+[ 37%] Building CXX object googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 50%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 62%] Linking CXX static library ../lib/libgtest_maind.a
+[ 62%] Built target gtest_main
+[ 75%] Linking CXX static library ../lib/libgmockd.a
+[ 75%] Built target gmock
+Scanning dependencies of target gmock_main
+[ 87%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[100%] Linking CXX static library ../lib/libgmock_maind.a
+[100%] Built target gmock_main
+[ 93%] Performing install step for 'GTest-Debug'
+[ 25%] Built target gtest
+[ 50%] Built target gmock
+[ 75%] Built target gmock_main
+[100%] Built target gtest_main
+Install the project...
+-- Install configuration: "Debug"
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-actions.h.pump
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-function-mockers.h.pump
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-matchers.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-more-actions.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-matchers.h.pump
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-actions.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-matchers.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/gmock-port.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/gmock-internal-utils.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/gmock-pp.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h.pump
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-port.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-matchers.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/gmock-generated-actions.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/internal/custom/README.md
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-function-mocker.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-more-matchers.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-generated-function-mockers.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-cardinalities.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-spec-builders.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-nice-strict.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gmock/gmock-actions.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgmockd.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgmock_maind.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gmock.pc
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gmock_main.pc
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestTargets.cmake
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestTargets-debug.cmake
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestConfigVersion.cmake
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/cmake/GTest/GTestConfig.cmake
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-matchers.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-death-test.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-spi.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-string.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-death-test-internal.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-type-util.h.pump
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-port.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-port-arch.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-internal.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-param-util.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-type-util.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/gtest-filepath.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/gtest-port.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/README.md
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/gtest.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/internal/custom/gtest-printers.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-message.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-param-test.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-typed-test.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest_pred_impl.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest_prod.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-test-part.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest.h
+-- Up-to-date: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/include/gtest/gtest-printers.h
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgtestd.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/libgtest_maind.a
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gtest.pc
+-- Installing: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/Install/lib/pkgconfig/gtest_main.pc
+loading initial cache file /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest/args.cmake
+[100%] Completed 'GTest-Debug'
+[100%] Built target GTest-Debug
+-- [hunter] Build step successful (dir: /Users/melikyan/.hunter/_Base/5659b15/a47179b/65a58ee/Build/GTest)
+-- [hunter] Cache saved: /Users/melikyan/.hunter/_Base/Cache/raw/7fc6285977a9ad4632838f7f06e72555ca63ff24.tar.bz2
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/_builds/default
+Execute command: [
+  `cmake`
+  `--build`
+  `/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/_builds/default`
+  `--`
+]
+[/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master]> "cmake" "--build" "/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/_builds/default" "--"
+Scanning dependencies of target print
+[ 25%] Building CXX object CMakeFiles/print.dir/sources/print.cpp.o
+[ 50%] Linking CXX static library libprint.a
+[ 50%] Built target print
+Scanning dependencies of target demo
+[ 75%] Building CXX object CMakeFiles/demo.dir/demo/main.cpp.o
+[100%] Linking CXX executable demo
+[100%] Built target demo
+Execute command: [
+  `ctest`
+]
+[/Users/melikyan/Desktop/Университет/2 семестр/ТИМП/lab07-master/_builds/default]> "ctest"
+*********************************
+No test configuration file found!
+*********************************
+Usage
+
+  ctest [options]
+
