@@ -21,13 +21,6 @@ jobs:
     - name: install docker
       shell: bash
       run: |
-        pwd
-        echo "123"
-        ls -a
-        echo "456"
-        cd ..
-        ls -a
-        echo "789"
         sudo apt-get install ca-certificates curl gnupg lsb-release
         curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
         echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
@@ -40,9 +33,3 @@ jobs:
       shell: bash
       run: |
         docker build -t logger .
-
-# language: cpp
-# services:
-#   - docker  
-# script:
-#   - docker build -t logger .
